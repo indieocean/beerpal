@@ -1,0 +1,39 @@
+@import "variables.scss";
+
+body {
+    background-color: $background-color;
+}
+
+h1 {
+    font-family: $font-family;
+}
+
+/* Layout */
+.container {
+    border-top: 8px solid $primary-color;
+    padding-top: 20px;
+
+}
+
+.bp-header-title {
+    color: $primary-color;
+    text-align: center;
+}
+
+.bp-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.bp-meta-data {
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.bp-meta-title {
+    color: $primary-color;
+}
